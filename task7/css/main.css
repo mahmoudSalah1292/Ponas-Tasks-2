@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+---EX1---
+.custom-div {
+    color: red;
+    font-size: 50px;
+} 
+.custom-div:hover + p {
+    font-size: 60px;
+    color: blue;
+    background-color: black;
+}
+---End EX1---
+*/
+
+/*---- EX3--- */
+/* .overlay {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: ;
+} */
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.right {
+    right: 200px !important;
+}
+
+.d-flex-jucn-spbetw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-col {
+    background-color: white;
+}
+
+.wid-25 {
+    width: 25%;
+}
+
+.wid-15 {
+    width: 15%;
+}
+
+.wid-40 {
+    width: 40%;
+}
+
+.li-sty {
+    list-style: none;
+}
+
+.tex-ali {
+    text-align: center;
+}
+
+nav {
+    margin: 5% 0 2%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav button {
+    width: 120px;
+    height: 39px;
+    text-align: center;
+    background-color: orange;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+section .cust-div {
+    width: 300px;
+    padding: 300px;
+    background-image: url(../image/narrow-road-green-grassy-field-surrounded-by-green-trees-with-bright-sun-background_181624-9968.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    width: 75%;
+    position: relative;
+}
+
+section .cust-div a {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    background-color: orange;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(20, 20, 48);
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    line-height: 3;
+    right: 0;
+}
+
+section .cust-div a i {
+    margin-right: 15px;
+    color: white
+}
+
+section .cust-div .child-1 {
+    position: absolute;
+    width: 40%;
+    font-size: 25px;
+    left: -125px;
+}
+
+
+section form .input-icons i {
+    position: absolute;
+    font-size: small;
+    line-height: 1.5;
+    color: gray;
+}
+
+section form .input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+section form .icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+section form .input-field {
+    width: 60%;
+    padding: 10px;
+    border: none;
+}
+
+section form .input-field::placeholder {
+    padding-left: 20px;
+    color: gray;
+}
+
+section form button {
+    padding: 10px;
+    margin-left: -7px;
+    border: none;
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ani-div i {
+    text-align: center;
+    font-size: 100px;
+    animation: circle 1s linear infinite;
+    text-align: center;
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

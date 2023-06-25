@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Start Goloble Rols */
+.container {
+    width: 80%;
+    margin: auto;
+}
+.mar-top {
+    margin-top: 10%;
+}
+.mar-bot {
+    margin-bottom: 10%;
+}
+.mar-bot2 {
+    margin-bottom: 5%;
+}
+.mar-lef {
+    margin-left: 40%;
+}
+
+.lef {
+    left: 50% !important;
+}
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-blo {
+    display: block;
+}
+.flo-rig {
+    float: right;
+}
+.flo-lef {
+    float: left;
+}
+.main-width {
+    width: 40%;
+}
+
+.mas-pos {
+    position: relative;
+}
+
+.main-pos {
+    position: absolute;
+}
+
+/* End Goloble Rols */
+/* Custome Style */
+.sec-1 img, .sec-2 img {
+    height: 250px;
+}
+
+.sec-1 .cust-sty, .sec-2 .cust-sty {
+    background-color: green;
+    width: 40%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 3 !important;
+    top: calc(100% - 30px);
+    left: 10%;
+}
+.sec-1 i, .sec-2 i {
+    margin-right: 20px;
+    font-size: small;
+}
+
+button {
+    width: 20%;
+    
+}

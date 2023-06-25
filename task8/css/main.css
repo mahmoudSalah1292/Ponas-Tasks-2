@@ -1,0 +1,53 @@
+/* ---- EX2 --- */
+ 
+div::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: blue;
+    display: block;
+    position: absolute;
+    top: -41px;
+    right: -49px;
+    border-radius: 50%;
+    transition: 3s;
+}
+
+div {
+    margin-left: 35%;
+    margin-right: 5%;
+    background-color: #eee;
+    font-size: 30px;
+    position: relative;
+    box-shadow: 0px 4px 10px 7px rgb(0 0 0 / 0.2);
+    padding: 2%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 33px;
+    color: white;
+
+}
+
+div:hover::before {
+    transform: scale(20);
+    background-color: blue;
+    color: white;
+}
+
+div p:hover {
+    color: white;
+
+}
+
+div p {
+    position: relative;
+    transition: 3s;
+}
+
+/* ----End EX2---- */

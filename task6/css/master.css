@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Globale Rols */
+.container {
+    width: 80%;
+    margin: auto;
+}
+.w-100 {
+    width: 100%;
+}
+.mai-wid {
+    width: 50%;
+}
+.ovrfl-hdn {
+    overflow: hidden;
+}
+.mar-top {
+    margin-top: 5%;
+}
+.mar-top2 {
+    margin-top: 2%;
+}
+
+.mar-rig {
+    margin-right: 4%;
+}
+
+.pos-re {
+    position: relative;
+}
+.pos-ab {
+    position: absolute;
+}
+.d-inline-block {
+    display: inline-block;
+}
+/* End Rols */
+/* custom style */
+.card-1 {
+    width: 25%;
+    height: 400px;
+    box-shadow: 4px 4px 23px -3px #000000ff;
+    padding: 2% 5%;
+    margin-right: 50px;
+    line-height: 2;
+    transition: .5s;
+}
+
+h2 {
+    font-size: 10rem;
+    bottom: calc(100% - 184px);
+    right: calc(100% - 120px);
+}
+
+.card-1:hover {
+    background-color: olivedrab;
+    color: white;
+}
+.pad-top {
+    padding-top: 70px
+}
+p {
+    padding-left: 15%;
+}
+
+.bu-1 {
+    font-weight: bold;
+    padding: 2%;
+    border: 0;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.bu-1:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
